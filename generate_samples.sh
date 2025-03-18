@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script generates 1000 sample patients for California in various formats
+# This script generates 10000 sample patients for California in various formats
 # and zips them up by type in the ./samples/ subdirectory
 
 ../synthes/run_synthea -p 10000 --state "California" \
