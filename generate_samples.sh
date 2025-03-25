@@ -13,5 +13,5 @@ mkdir samples
 
 for type in ccda fhir fhir_stu3 fhir_dstu2 csv
 do
-  zip -jr samples/synthea_sample_data_${type}_latest.zip output/${type}/
+  zip -jr samples/synthea_sample_data_${type}_latest.zip src/files/${type}/
 done
